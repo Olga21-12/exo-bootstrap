@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <title>Navbar + Cards + Color</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="text-bg-primary mb-3" style="text-align: center; height: 10rem; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        
+        <h5>Bienvenue sur notre site</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, delectus?</p>
+      </div>
+
+      <h1 style="text-align: center;">Nos Services</h1>
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+    <div class="card border-primary mb-3" style="width: 18rem;">
+        <img src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Service 1</h5>
+          <p class="card-text">Description du service 1</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+      <div class="card border-success mb-3" style="width: 18rem;">
+        <img src="https://img.freepik.com/premium-photo/there-is-cat-that-is-standing-middle-painting-generative-ai_958138-100780.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-success">Service 2</h5>
+          <p class="card-text">Description du service 2</p>
+          <a href="#" class="btn btn-success">Découvrir</a>
+        </div>
+      </div>
+      <div class="card border-danger mb-3" style="width: 18rem;">
+        <img src="https://img.freepik.com/premium-photo/cartoon-cat-with-sword-word-tiger-it_978914-8143.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Service 3</h5>
+          <p class="card-text">Description du service 3</p>
+          <a href="#" class="btn btn-danger">Voir plus</a>
+        </div>
+      </div>
+</div>
+
+<hr>
+<hr>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mon Site</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="bg-primary text-white text-center p-5">
+    <h1>Bienvenue sur notre site</h1>
+    <p>Un site moderne avec Bootstrap</p>
+</header>
+
+<!-- Services -->
+<div class="container mt-4">
+<h2 class="text-center">Nos Services</h2>
+<div class="row">
+    <!-- Première carte (bleue) -->
+    <div class="col-md-4">
+        <div class="card border-primary">
+            <img src="https://www.pokepedia.fr/images/thumb/c/cc/Carapuce-RFVF.png/800px-Carapuce-RFVF.png" 
+                 class="card-img-top" alt="Service 1"
+                 style="height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title text-primary">Service 1</h5>
+                <p class="card-text">Description du service 1.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Deuxième carte (verte) -->
+    <div class="col-md-4">
+        <div class="card border-success bg-light">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" 
+                 class="card-img-top" alt="Service 2"
+                 style="height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title text-success">Service 2</h5>
+                <p class="card-text">Description du service 2.</p>
+                <a href="#" class="btn btn-success">Découvrir</a>
+            </div>
+        </div>
+    </div>
+    <!-- Troisième carte (rouge) -->
+    <div class="col-md-4">
+        <div class="card border-danger bg-light">
+            <img src="https://www.pokepedia.fr/images/thumb/8/89/Salamèche-RFVF.png/800px-Salamèche-RFVF.png" 
+                 class="card-img-top" alt="Service 3"
+                 style="height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title text-danger">Service 3</h5>
+                <p class="card-text">Description du service 3.</p>
+                <a href="#" class="btn btn-danger">Voir plus</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer class="bg-light text-white text-center p-3 mt-5">2025 Mon Site - Tous droits réservés</footer>
+</body>
+</html>
